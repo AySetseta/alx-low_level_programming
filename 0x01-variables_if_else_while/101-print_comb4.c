@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+int i, j, k;
 /* Iterate through all possible combinations of three digits*/
 for (int i = 0; i <= 7; i++)
 {
