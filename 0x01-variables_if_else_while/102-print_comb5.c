@@ -9,7 +9,7 @@ int main(void)
 int num1, num2;
 for (num1 = 0; num1 <= 99; num1++)
 {
-for (num2 = num1; num2 <= 99; num2++)
+for (num2 = num1 + 1; num2 <= 99; num2++)
 {
 int tens1 = num1 / 10;
 int units1 = num1 % 10;
@@ -22,7 +22,7 @@ putchar(' ');
 putchar('0' + tens2);
 putchar('0' + units2);
 
-if (num1 != 99 || num2 != 99)
+if (num1 != 98 || num2 != 99)
 {
 putchar(',');
 putchar(' ');
