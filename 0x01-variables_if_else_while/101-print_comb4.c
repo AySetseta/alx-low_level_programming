@@ -8,11 +8,14 @@ int main(void)
 {
 int i, j, k;
 /* Iterate through all possible combinations of three digits*/
-for (int i = 0; i <= 7; i++)
+i = 0;
+while (i <= 7)
 {
-for (int j = i + 1; j <= 8; j++)
+j = i + 1;
+while (j <= 8)
 {
-for (int k = j + 1; k <= 9; k++)
+k = j + 1;
+while (k <= 9)
 {
 /* Check if the combination has distinct digits*/
 putchar(i + '0');
@@ -23,8 +26,11 @@ if (i != 7 || j != 8 || k != 9)
 putchar(',');
 putchar(' ');
 }
+k++;
 }
+j++;
 }
+i++;
 }
 putchar('\n');
 return (0);
