@@ -15,10 +15,11 @@ write(1, &c, 1);
 int main(void)
 {
 const char message[] = "_putchar\n";
-int i;
-for (int i = 0; message[i] != '\0'; i++)
+int i = 0;
+while (message[i] != '\0')
 {
 _putchar(message[i]);
+i++;
 }
 return (0);
 }
