@@ -15,6 +15,7 @@ write(1, &c, 1);
 int main(void)
 {
 const char message[] = "_putchar\n";
+int i;
 for (int i = 0; message[i] != '\0'; i++)
 {
 _putchar(message[i]);
