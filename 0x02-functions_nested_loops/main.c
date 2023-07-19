@@ -1,9 +1,15 @@
 #include "main.h"
-
+#include <stdio.h>
+#include <unistd.h>
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
 /* Function prototype for print_alphabet */
-void print_alphabet(void);
 
-int main(void) {
+int main(void)
+{
 print_alphabet();
 return (0);
 }
